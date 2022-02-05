@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/bloglist
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxzYWxhbmRlciIsImlkIjoiNjFmNTMyNDhmZDhmNWI1YTA3NDVmNDk1IiwiaWF0IjoxNjQzNDgwNTc1fQ.PIxiNd7dDJJ_2hEPSkild--vsw4UH2VjYL66Q8hCf1w
+
+{
+    "title": "Test2 blog creat amb el Token sense assignar usuari",
+    "author": "Nayana Rajesh",
+    "url": "https://www.nationalgeographic.com.es/fotografia/mejores-fotografias-viajes-2021_17806",
+    "likes": 444
+}
